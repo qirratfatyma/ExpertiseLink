@@ -1,16 +1,41 @@
-import React from "react";
+import Container from "react-bootstrap/Container";
+import Nav from "react-bootstrap/Nav";
+import Navbar from "react-bootstrap/Navbar";
 import { Link } from "react-router-dom";
+import logo from "../assets/img/logo.png";
 
-export default function Header() {
+function BasicExample() {
   return (
-    <div>
-      <Link
-        to="/HeroSection"
-        style={{ color: "darkgrey", textDecoration: "none" }}
-      >
-        <h1>HeroSection</h1>
-      </Link>
-      <h1>Header</h1>
-    </div>
+    <Navbar expand="lg" className="navbar-color ">
+      <Container>
+        <Navbar.Brand>
+          <Link to={"/"} className="navbar-title">
+            <img src={logo} alt="logo" />
+            ExpertiseLink{" "}
+          </Link>
+        </Navbar.Brand>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav">
+          <Nav className="me-auto navbar-section">
+            <Link to="/HeroSection" className="navbar-elements">
+              <h3>Home</h3>
+            </Link>
+            <Link to="/HeroSection" className="navbar-elements">
+              <h3>Skills</h3>
+            </Link>
+            <Link to="/HeroSection" className="navbar-elements">
+              <h3>Contact Us</h3>
+            </Link>
+            <Link to="/HeroSection" className="navbar-elements">
+              <h3>Documentation</h3>
+            </Link>
+          </Nav>
+          <button className="btn navbar-btn">Login</button>
+          <button className="btn navbar-btn">Signup</button>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
   );
 }
+
+export default BasicExample;
