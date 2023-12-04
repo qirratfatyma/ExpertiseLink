@@ -19,7 +19,11 @@ h2 {
 }
 
 h3 {
-  font-size: 20px;
+  font-size: 15px;
+}
+
+h4 {
+  font-size: 8px;
 }
 
 /* Navbar CSS */
@@ -69,3 +73,22 @@ h3 {
 
 /* .navbar-btn:hover {
 } */
+
+.Signup-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--primary-color);
+  height: 90vh;
+}
+
+.form-container {
+  background-color: white;
+  padding: 2rem 10rem 4rem 10rem;
+  margin-bottom: 5rem;
+  border-radius: 2rem;
+}
+
+.form-section {
+  text-align: left;
+}

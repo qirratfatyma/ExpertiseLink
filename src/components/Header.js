@@ -20,18 +20,20 @@ function BasicExample() {
             <Link to="/HeroSection" className="navbar-elements">
               <h3>Home</h3>
             </Link>
-            <Link to="/HeroSection" className="navbar-elements">
+            <Link to="/Skills" className="navbar-elements">
               <h3>Skills</h3>
             </Link>
-            <Link to="/HeroSection" className="navbar-elements">
+            <Link to="/Contact" className="navbar-elements">
               <h3>Contact Us</h3>
             </Link>
-            <Link to="/HeroSection" className="navbar-elements">
+            <Link to="/Documentation" className="navbar-elements">
               <h3>Documentation</h3>
             </Link>
           </Nav>
           <button className="btn navbar-btn">Login</button>
-          <button className="btn navbar-btn">Signup</button>
+          <Link to="/Signup">
+            <button className="btn navbar-btn">Signup</button>
+          </Link>
         </Navbar.Collapse>
       </Container>
     </Navbar>
