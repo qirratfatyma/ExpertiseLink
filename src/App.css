@@ -8,6 +8,7 @@
 
 body {
   font-family: "Poppins";
+  background-color: var(--primary-color) !important;
 }
 
 h1 {
@@ -73,6 +74,7 @@ h4 {
 
 /* .navbar-btn:hover {
 } */
+<<<<<<< HEAD
 
 .Signup-container {
   display: flex;
@@ -92,3 +94,49 @@ h4 {
 .form-section {
   text-align: left;
 }
+=======
+/* Signup page css */
+
+.signup{
+  background-color: var(--primary-color);
+}
+.form-container{
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  justify-content: center;
+  /* max-width: 400px; */
+  margin-left: 15rem;
+  margin-right: 15rem;
+  margin-top: 3rem ;
+  align-items: center;
+  background-color: white;
+  border-radius: 1rem;
+}
+
+.signup-button{
+  background-color: var(--btn-color) !important; 
+  justify-content: center;
+  align-items: center;
+}
+.right-side {
+  background-color: #ffffff;
+  padding: 20px;
+  width: 50%;
+}
+
+.terms-message {
+  font-size: 12px;
+  color: #777;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+>>>>>>> fa2807fc0edd87498f2e14a3b2e57be2ddf632aa
