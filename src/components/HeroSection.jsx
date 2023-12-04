@@ -14,7 +14,7 @@ const Herosection = () => {
             </div>
             <div className="col-md-6" style={{ display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center", textAlign: "center" }}>
               <br></br>
-              <h2>ExpertiseLink</h2>
+              <h2 style={{ color: "#6a3f3e" }}>ExpertiseLink</h2>
               <br></br>
               <p>
                 The ultimate hub for knowledge exchange! Unleash your expertise and join a vibrant community where learning knows no bounds. Swap skills, forge connections, and elevate your mastery in a collaborative ecosystem like never before.
