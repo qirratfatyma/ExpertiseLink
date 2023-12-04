@@ -74,7 +74,6 @@ h4 {
 
 /* .navbar-btn:hover {
 } */
-<<<<<<< HEAD
 
 .Signup-container {
   display: flex;
@@ -94,13 +93,12 @@ h4 {
 .form-section {
   text-align: left;
 }
-=======
 /* Signup page css */
 
-.signup{
+.signup {
   background-color: var(--primary-color);
 }
-.form-container{
+.form-container {
   left: 0;
   right: 0;
   top: 0;
@@ -109,14 +107,14 @@ h4 {
   /* max-width: 400px; */
   margin-left: 15rem;
   margin-right: 15rem;
-  margin-top: 3rem ;
+  margin-top: 3rem;
   align-items: center;
   background-color: white;
   border-radius: 1rem;
 }
 
-.signup-button{
-  background-color: var(--btn-color) !important; 
+.signup-button {
+  background-color: var(--btn-color) !important;
   justify-content: center;
   align-items: center;
 }
@@ -139,4 +137,3 @@ h4 {
   align-items: center;
   height: 100vh;
 }
->>>>>>> fa2807fc0edd87498f2e14a3b2e57be2ddf632aa
