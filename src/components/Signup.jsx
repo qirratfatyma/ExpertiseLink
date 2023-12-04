@@ -38,9 +38,6 @@ function Signup() {
         <p style={{ textAlign: "center", marginTop: "5px", fontSize: "14px" }}>
           Signing up signifies that you have read and agree to the Terms of Service and our Privacy Policy. Cookie Preferences.
           {" "}
-          <a href="/signup" style={{ color: "#6a3f3e", textDecoration: "underline" }}>
-            Sign up
-          </a>
         </p>
       </form>
     </div>
