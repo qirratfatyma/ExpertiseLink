@@ -30,8 +30,9 @@ function BasicExample() {
               <h3>Documentation</h3>
             </Link>
           </Nav>
-          <button className="btn navbar-btn">Login</button>
+          <Link to="/Login"><button className="btn navbar-btn">Login</button></Link>
           <button className="btn navbar-btn">Signup</button>
+          
         </Navbar.Collapse>
       </Container>
     </Navbar>
