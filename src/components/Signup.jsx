@@ -102,7 +102,7 @@ function Signup() {
           />
         </div>
 
-        <button type="submit" style={{ fontSize: "18px", }}>
+        <button type="submit" style={{ fontSize: "18px", backgroundColor: "#6a3f3e", color: "white"  }}>
           Sign Up
         </button>
       </form>
