@@ -4,8 +4,8 @@ function Login() {
   return (
     <div className="Login-container" style={{ display: "flex", justifyContent: "center", alignItems: "center", height: "100vh" }}>
       <form className="form-container">
-        <h2 style={{ textAlign: "center", fontSize: "24px" }}>Log In</h2>
-
+        <h2 style={{ textAlign: "center", fontSize: "24px" }}>Log in to your account</h2>
+        <br></br>
         <div className="form-section">
           <label htmlFor="email">
             <h5>
@@ -38,7 +38,7 @@ function Login() {
           />
         </div>
         <br></br>
-        <button type="submit" style={{ fontSize: "18px", backgroundColor: "#6a3f3e", color: "white" }}>
+        <button type="submit" style={{ fontSize: "18px", backgroundColor: "#6a3f3e", color: "white", display: "flex", justifyContent: "center", alignItems: "center", height: "5vh" }}>
           Log In
         </button>
 
