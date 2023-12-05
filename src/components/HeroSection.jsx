@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from "../assets/img/logo.png";
 import heroImage from "../assets/img/image-1.png";
 import Node from "../assets/img/node.png";
 import php from "../assets/img/php.png";
@@ -7,7 +6,7 @@ import react from "../assets/img/react.png";
 import vuejs from "../assets/img/vuejs.png";
 import javaimg from "../assets/img/javaimg.png"
 import angukar from "../assets/img/angukar.png";
-import { parsePath } from 'react-router-dom';
+
 
 const Herosection = () => {
   return (
@@ -31,11 +30,13 @@ const Herosection = () => {
         </div>
       </section>
         <br></br>
+        <br></br>
       {/* Officially Supported Languages Section */}
       <section className="supported-languages-section">
         <div className="container">
           <h2 style={{ color: "#6a3f3e" }}>Officially Supported Languages</h2>
           <br></br>
+        <br></br>
           <br></br>
           <div className="row">
             <div className="col-md-2">

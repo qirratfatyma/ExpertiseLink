@@ -34,6 +34,12 @@ function Signup() {
         <button type="submit" style={{ fontSize: "18px", backgroundColor: "#6a3f3e", color: "white" }}>
           Sign Up
         </button>
+        <p style={{ textAlign: "center", marginTop: "10px" }}>
+          Already Have Account?{" "}
+          <a href="/login" style={{ color: "#6a3f3e", textDecoration: "underline" }}>
+            Log In
+          </a>
+        </p>
 
         <p style={{ textAlign: "center", marginTop: "5px", fontSize: "14px" }}>
           Signing up signifies that you have read and agree to the Terms of Service and our Privacy Policy. Cookie Preferences.

@@ -8,8 +8,9 @@ import linkedinIcon from "../assets/img/linkedin-logo.png";
 
 const Footer = () => {
   return (
-    <footer>
-      <div className="container"  style={{  backgroundColor: "white" }}>
+    <footer style={{ width: "100%"}}>
+      <br></br>
+      <div className="container"  style={{  backgroundColor: "white", width: "100%" }}>
         <div className="row">
           <div className="col-md-3">
             <img src={logo} alt="logo" style={{ width: "50%", height: "auto" }} />
