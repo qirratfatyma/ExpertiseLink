@@ -14,7 +14,7 @@ function App() {
     <div>
       <Header />
       <Routes>
-        <Route path="/HeroSection" element={<HeroSection />} />
+        <Route path="/" element={<HeroSection />} />
         <Route path="/Skills" element={<Skills />} />
         <Route path="/Contact" element={<Contact />} />
         <Route path="/Documentation" element={<Documentation />} />

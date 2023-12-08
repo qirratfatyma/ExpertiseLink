@@ -2,6 +2,7 @@
   --primary-color: #e5cedc;
   --secondary-color: #b04863;
   --btn-color: #6a3f3e;
+  --btn-hover: #865555;
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,200&display=swap");
@@ -48,7 +49,7 @@ h4 {
 }
 
 .navbar-section {
-  margin-left: 3rem;
+  margin-left: 4rem;
   box-sizing: border-box;
 }
 
@@ -58,22 +59,32 @@ h4 {
   margin-top: 5px;
   color: white;
   text-decoration: none;
-  margin-right: 2rem;
+  margin-right: 3rem;
 }
 
 .navbar-elements:hover {
   color: var(--secondary-color);
 }
 
-.navbar-btn {
-  background-color: var(--btn-color);
-  color: white;
-  border-radius: 40px;
-  margin-left: 1rem;
+.navbar-elements:focus {
+  color: var(--secondary-color);
 }
 
-/* .navbar-btn:hover {
-} */
+.navbar-elements h3 {
+  font-size: 20px !important;
+}
+
+.navbar-btn {
+  background-color: var(--btn-color) !important;
+  width: 6rem !important;
+  color: white !important;
+  border-radius: 40px !important;
+  margin-left: 1rem !important;
+}
+
+.navbar-btn:hover {
+  background-color: var(--btn-hover) !important;
+}
 
 .Signup-container {
   display: flex;
@@ -136,4 +147,38 @@ h4 {
   justify-content: center;
   align-items: center;
   height: 100vh;
+}
+
+/* Footer CSS  */
+
+.footer-container {
+  padding-top: 2rem;
+  background-color: white;
+  margin-top: 2rem;
+  display: grid;
+  align-items: center;
+}
+
+.footer-logo {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.footer-logo img {
+  /* margin-left: 4rem; */
+  width: 50%;
+  height: auto;
+}
+.social {
+  display: flex;
+}
+.social img {
+  width: 30px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.list-unstyled li a {
+  text-decoration: none;
+  color: black;
 }
