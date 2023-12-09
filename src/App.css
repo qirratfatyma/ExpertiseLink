@@ -3,12 +3,13 @@
   --secondary-color: #b04863;
   --btn-color: #6a3f3e;
   --btn-hover: #865555;
+
+  --primary-font: "Poppins", sans-serif;
+  --secondry-font: "Work Sans", sans-serif;
 }
 
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,200&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Work+Sans&display=swap");
 body {
-  font-family: "Poppins";
   background-color: var(--primary-color) !important;
 }
 
@@ -104,6 +105,39 @@ h4 {
 .form-section {
   text-align: left;
 }
+
+/* HeroSection */
+
+.hero-section {
+  padding-top: 2rem;
+}
+
+.Hero-img {
+  width: 100%;
+  height: auto;
+}
+
+.Hero-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Hero-text h1 {
+  color: var(--btn-color);
+  font-family: var(--secondry-font);
+}
+
+.supported-languages-section .container h1 {
+  color: var(--btn-color);
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+  text-align: center;
+  font-family: var(--primary-font);
+  font-weight: 900;
+}
+
 /* Signup page css */
 
 .signup {
@@ -171,6 +205,9 @@ h4 {
 }
 .social {
   display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  margin: 1rem 0;
 }
 .social img {
   width: 30px;
@@ -181,4 +218,100 @@ h4 {
 .list-unstyled li a {
   text-decoration: none;
   color: black;
+  font-size: 15px;
+  font-weight: 400;
+  font-family: var(--secondry-font);
+}
+
+.row {
+  width: 100%;
+  text-align: center;
+}
+
+.row p {
+  font-size: 20px;
+  font-weight: 600;
+  font-family: var(--primary-font);
+}
+
+/* Contact CSS  */
+
+.contact-section {
+  margin-top: 3rem;
+  color: var(--primary-white);
+  padding-bottom: 3rem;
+}
+
+.contact-section h3 {
+  font-size: 1.2rem;
+  text-align: center;
+  letter-spacing: 0.4px;
+  line-height: 1.4rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  padding-bottom: 3rem;
+  font-family: var(--secondry-font);
+  font-weight: 400;
+}
+.contact-title {
+  text-align: center;
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+  font-family: var(--primary-font);
+}
+
+form {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 4rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin: auto;
+  max-width: 600px;
+  border-radius: 1rem;
+}
+
+form h2 {
+  font-size: 1.4rem !important;
+  font-family: var(--primary-font) !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.3px !important;
+  text-align: center;
+  font-weight: 600;
+  padding-bottom: 3rem;
+  padding-top: 2rem;
+}
+
+form input,
+form textarea {
+  margin-bottom: 1rem;
+  padding: 8px 18px;
+  font-size: 1.2rem;
+  background-color: rgba(5, 5, 5, 0.1);
+  border-color: transparent;
+  border-radius: 0.5rem;
+  color: rgb(44, 44, 44);
+}
+.contact-section .btn {
+  padding: 0.5rem 1rem !important;
+  background-color: var(--btn-color) !important;
+  color: #151515;
+  font-family: var(--secondry-font);
+  font-weight: 400;
+  border-color: transparent;
+  transition: all ease-in-out 300ms;
+  cursor: pointer;
+}
+
+.contact-section .btn:hover {
+  border-color: transparent;
+  background-color: var(--btn-hover) !important;
+}
+
+label {
+  color: black;
+  font-weight: 400;
+  font-family: var(--secondry-font);
+  margin-bottom: 0.5rem;
 }

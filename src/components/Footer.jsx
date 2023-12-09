@@ -4,18 +4,18 @@ import logo from "../assets/img/logo.png";
 import facebookIcon from "../assets/img/facebook-logo.png";
 import twitterIcon from "../assets/img/Twitter-logo.png";
 import instagramIcon from "../assets/img/Instagram-logo.png";
-import linkedinIcon from "../assets/img/linkedin-logo.png";
+import linkedinIcon from "../assets/img/LinkedIn-logo.webp";
 
 const Footer = () => {
   return (
     <div>
       <div className="footer-container">
         <div className="row">
-          <div className="col-md-3 footer-logo">
+          <div className="col-lg-3 col-sm-6 col-md-3 footer-logo">
             <img src={logo} alt="logo" />
           </div>
 
-          <div className="col-md-3">
+          <div className="col-lg-3 col-sm-6 col-md-3">
             <p>Follow Us on Social Media</p>
             <div className="social">
               <a
@@ -63,7 +63,7 @@ const Footer = () => {
             </ul>
           </div>
 
-          <div className="col-md-3">
+          <div className="col-lg-3 col-sm-6 col-md-3">
             <p>Useful Links</p>
             <ul className="list-unstyled">
               <li>
