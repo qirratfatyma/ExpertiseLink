@@ -13,7 +13,7 @@ const Herosection = () => {
       {/* Hero Section */}
       <section className="hero-section">
         <div className="container">
-          <div className="row">
+          <div className="row g-2">
             <div className="col-sm-12 col-lg-6 col-md-6">
               <img src={heroImage} alt="Hero" className="Hero-img" />
             </div>
@@ -37,48 +37,34 @@ const Herosection = () => {
       <section className="supported-languages-section">
         <div className="container">
           <h1>Officially Supported Languages</h1>
-          <div className="row">
-            <div className="col-md-2">
+          <div className="row language-logo">
+            <div className="col-md-2 mb-3">
               <img
                 src={Node}
                 alt="Language 1"
-                style={{ width: "100%", height: "auto" }}
+                className="languages"
+                style={{ paddingBottom: "2rem" }}
               />
             </div>
-            <div className="col-md-2">
-              <img
-                src={php}
-                alt="Language 2"
-                style={{ width: "100%", height: "auto" }}
-              />
+            <div className="col-md-2 mb-2">
+              <img src={php} alt="Language 2" className="languages" />
             </div>
             <div className="col-md-2">
-              <img
-                src={react}
-                alt="Language 3"
-                style={{ width: "100%", height: "auto" }}
-              />
+              <img src={react} alt="Language 3" className="languages" />
             </div>
             <div className="col-md-2">
               <img
                 src={vuejs}
                 alt="Language 4"
-                style={{ width: "100%", height: "auto" }}
+                className="languages"
+                style={{ marginBottom: "2px" }}
               />
             </div>
-            <div className="col-md-2">
-              <img
-                src={javaimg}
-                alt="Language 5"
-                style={{ width: "100%", height: "auto" }}
-              />
+            <div className="col-md-2 mb-2">
+              <img src={javaimg} alt="Language 5" className="languages" />
             </div>
-            <div className="col-md-2">
-              <img
-                src={angukar}
-                alt="Language 6"
-                style={{ width: "100%", height: "auto" }}
-              />
+            <div className="col-md-2 mt-3">
+              <img src={angukar} alt="Language 6" className="languages" />
             </div>
           </div>
         </div>

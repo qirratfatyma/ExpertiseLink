@@ -138,6 +138,23 @@ h4 {
   font-weight: 900;
 }
 
+.language-logo {
+  display: flex;
+  flex-wrap: wrap;
+  object-fit: contain;
+}
+.languages {
+  margin: 0.5rem 0;
+  width: 70%;
+}
+
+@media screen and (max-width: 768px) {
+  .languages {
+    width: 40%;
+    height: 70%;
+  }
+}
+
 /* Signup page css */
 
 .signup {
