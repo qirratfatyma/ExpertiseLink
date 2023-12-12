@@ -399,6 +399,20 @@ form textarea {
   max-width: 1000px;
 }
 
+.two-text {
+  color: #B04863;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: large;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin: auto;
+  max-width: 1000px;
+}
 
 label {
   color: black;

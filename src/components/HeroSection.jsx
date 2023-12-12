@@ -10,6 +10,7 @@ import first from "../assets/img/first.png";
 import second from "../assets/img/second.png";
 import third from "../assets/img/third.png";
 import last from "../assets/img/last.png";
+import { Link } from "react-router-dom";
 
 const Herosection = () => {
   return (
@@ -77,35 +78,52 @@ const Herosection = () => {
 
       <section>
       <div className="container">
-      <div class="my-text">
-        <p>Developers, teams, and Startups of all sizes use ExpertLink to deploy, manage, and scale skills.</p>
-     </div>
-     <div className="row language-logo">
-            <div className="col-md-2 mb-3">
-              <img
-                src={first}
-                alt="Language 1"
-                className="languages"
-                style={{ paddingBottom: "2rem" }}
+          <div class="my-text">
+            <p>Developers, teams, and Startups of all sizes use ExpertLink to deploy, manage, and scale skills.</p>
+          </div>
+            <div className="row language-logo">
+            <div className="col-md-2 mb-3 d-flex align-items-center">
+              <img  src={first} alt="Language 1" className="languages"
               />
             </div>
-            <div className="col-md-2 mb-2">
+            <div className="col-md-2 mb-3 d-flex align-items-center">
               <img src={second} alt="Language 2" className="languages" />
             </div>
-            <div className="col-md-2">
+            <div className="col-md-2 mb-3 d-flex align-items-center">
               <img src={third} alt="Language 3" className="languages" />
             </div>
-            <div className="col-md-2">
-              <img
-                src={last}
-                alt="Language 4"
-                className="languages"
-                style={{ marginBottom: "2px" }}
+            <div className="col-md-2 mb-3 d-flex align-items-center">
+              <img src={last} alt="Language 4" className="languages" style={{ marginBottom: "2px" }}
               />
             </div>
-          </div>   
+          </div> 
+          <div className="two-text"> 
+          <p><b>Dive into a world of endless possibilities with our featured skill categories! From cutting-edge tech to timeless crafts, our diverse array of expertise awaits your exploration. Whether you're into coding, culinary arts, or mindfulness practices, our curated categories make it easy to find and connect with like-minded individuals ready to swap skills and expand horizons. Join the community and embark on a journey of collaborative learning in the categories that spark your passion.</b></p> 
           </div>
-      </section>
+          </div>
+        </section>
+        <div className="container">
+  <div className="row g-2">
+    <div className="col-md-12">
+      <a href="/Signup">
+        <button type="submit" className="signup-button">
+          Sign Up
+        </button>
+      </a>
+      <p style={{ textAlign: "center", marginTop: "10px" }}>
+        <br>
+        </br>
+        Have a Question? Feel Free to{" "}
+        <Link
+          to="/Contact"
+          style={{ color: "#6a3f3e", textDecoration: "underline" }}
+        >
+          Contact Us
+        </Link>
+      </p>
+    </div>
+  </div>
+</div>
     </div>
   );
 };
