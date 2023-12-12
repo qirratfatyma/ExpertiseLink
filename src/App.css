@@ -87,17 +87,12 @@ h4 {
   background-color: var(--btn-hover) !important;
 }
 
-.Signup-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: var(--primary-color);
-  height: 90vh;
-}
-
 .form-container {
   background-color: white;
-  padding: 2rem 10rem 4rem 10rem;
+  padding-top: 4rem;
+  padding-bottom: 2rem;
+  justify-content: center;
+  align-items: center;
   margin-bottom: 5rem;
   border-radius: 2rem;
 }
@@ -157,29 +152,44 @@ h4 {
 
 /* Signup page css */
 
+.Signup-heading h1 {
+  text-align: center;
+  font-size: 32px;
+  color: var(--secondary-color);
+}
+
+form {
+  margin-bottom: 1rem !important;
+}
+.Signup-container {
+  display: flex;
+  margin-top: 2rem;
+  background-color: var(--primary-color);
+}
+
+.Signup-container .footer-container {
+  margin: 6rem !important;
+}
+
 .signup {
   background-color: var(--primary-color);
 }
-.form-container {
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  justify-content: center;
-  /* max-width: 400px; */
-  margin-left: 15rem;
-  margin-right: 15rem;
-  margin-top: 3rem;
-  align-items: center;
-  background-color: white;
-  border-radius: 1rem;
-}
 
 .signup-button {
+  margin-top: 1rem;
   background-color: var(--btn-color) !important;
-  justify-content: center;
-  align-items: center;
+  border-radius: 5px;
+  border-color: transparent;
+  font-size: 18px;
+  background-color: var(--btn-color);
+  color: white;
+  width: 25rem;
 }
+
+.signup-button:hover {
+  background-color: var(--btn-hover) !important;
+}
+
 .right-side {
   background-color: #ffffff;
   padding: 20px;
@@ -193,11 +203,46 @@ h4 {
   margin-top: 20px;
 }
 
+form h2 {
+  padding-bottom: 1rem !important;
+}
+
 .login-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  margin-top: 3rem;
+}
+
+.login-container .form-container {
+  width: 100%;
+  background-color: white;
+  padding-top: 0;
+  /* padding-bottom: 2rem; */
+  justify-content: center;
+  align-items: center;
+  border-radius: 2rem;
+}
+
+.login-container .form-container .form-section {
+  text-align: left;
+  font-size: 18px;
+  color: white;
+}
+
+.login-btn {
+  background-color: var(--btn-color) !important;
+  border-radius: 5px;
+  border-color: transparent;
+  font-size: 18px;
+  background-color: var(--btn-color);
+  color: white;
+  width: 25rem;
+  margin-bottom: 1rem;
+}
+
+.login-btn:hover {
+  background-color: var(--btn-hover) !important;
 }
 
 /* Footer CSS  */
