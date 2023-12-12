@@ -56,7 +56,8 @@ export default function Contact() {
             placeholder="Type your message"
           />
 
-          <Button className="btn">Submit</Button>
+<button type="submit" className="contact-button"> Submit
+</button>
         </Form>
       </div>
     </div>

@@ -186,6 +186,19 @@ form {
   width: 25rem;
 }
 
+
+.contact-button {
+  margin-top: 1rem;
+  background-color: var(--btn-color) !important;
+  border-radius: 5px;
+  border-color: transparent;
+  font-size: 18px;
+  background-color: var(--btn-color);
+  color: white;
+  width: 25rem;
+}
+
+
 .signup-button:hover {
   background-color: var(--btn-hover) !important;
 }
