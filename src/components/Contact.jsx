@@ -55,9 +55,9 @@ export default function Contact() {
             rows={6}
             placeholder="Type your message"
           />
-
-<button type="submit" className="contact-button"> Submit
-</button>
+          <button type="submit" className="contact-button">
+            Submit
+          </button>
         </Form>
       </div>
     </div>
