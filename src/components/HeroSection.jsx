@@ -6,6 +6,10 @@ import react from "../assets/img/react.png";
 import vuejs from "../assets/img/vuejs.png";
 import javaimg from "../assets/img/javaimg.png";
 import angukar from "../assets/img/angukar.png";
+import first from "../assets/img/first.png";
+import second from "../assets/img/second.png";
+import third from "../assets/img/third.png";
+import last from "../assets/img/last.png";
 
 const Herosection = () => {
   return (
@@ -68,6 +72,39 @@ const Herosection = () => {
             </div>
           </div>
         </div>
+      </section>
+
+
+      <section>
+      <div className="container">
+      <div class="my-text">
+        <p>Developers, teams, and Startups of all sizes use ExpertLink to deploy, manage, and scale skills.</p>
+     </div>
+     <div className="row language-logo">
+            <div className="col-md-2 mb-3">
+              <img
+                src={first}
+                alt="Language 1"
+                className="languages"
+                style={{ paddingBottom: "2rem" }}
+              />
+            </div>
+            <div className="col-md-2 mb-2">
+              <img src={second} alt="Language 2" className="languages" />
+            </div>
+            <div className="col-md-2">
+              <img src={third} alt="Language 3" className="languages" />
+            </div>
+            <div className="col-md-2">
+              <img
+                src={last}
+                alt="Language 4"
+                className="languages"
+                style={{ marginBottom: "2px" }}
+              />
+            </div>
+          </div>   
+          </div>
       </section>
     </div>
   );
