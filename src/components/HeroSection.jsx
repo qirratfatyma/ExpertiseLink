@@ -81,7 +81,7 @@ const Herosection = () => {
           <div class="my-text">
             <p>Developers, teams, and Startups of all sizes use ExpertLink to deploy, manage, and scale skills.</p>
           </div>
-            <div className="row language-logo">
+            <div className="row language-logo" style={{ paddingBottom: "2rem", paddingLeft:"2rem", paddingRight: "2rem", textAlign: "center"}}>
             <div className="col-md-2 mb-3 d-flex align-items-center">
               <img  src={first} alt="Language 1" className="languages"
               />
